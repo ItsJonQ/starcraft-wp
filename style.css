@@ -1,0 +1,142 @@
+/*
+Theme Name:     Starcraft WP
+Theme URI:      https://github.com/ItsJonQ/starcraft-wp
+Description:    Starcraft Optimized Wordpress Theme. Child Theme for HTML5-Reset-Wordpress-Theme
+Author:         ItsJonQ
+Template:       HTML5-Reset-Wordpress-Theme
+Version:        0.1.0
+*/
+
+html,body {
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+body {
+	background: #f9f9f9;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0px 0px 1.5em;
+}
+
+
+
+.wrapper {
+	margin: 0px auto;
+}
+
+article.post iframe {
+	max-width: 100%;
+}
+
+/* The Grid */
+
+	.row {
+	  margin-left: -20px;
+	  *zoom: 1;
+	}
+
+	.row:before,
+	.row:after {
+	  display: table;
+	  line-height: 0;
+	  content: "";
+	}
+
+	.row:after {
+	  clear: both;
+	}
+
+	[class*="span"] {
+	  float: left;
+	  min-height: 1px;
+	  margin-left: 20px;
+	}
+
+	.fullWidth,
+	.span12 {
+		width: 1020px;
+	}
+
+	.span8 {
+		width: 640px;
+	}
+
+	.span4 {
+		width: 300px;
+	}
+
+/* Typography */
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: 1.25em;
+	}
+
+	h2 {
+		font-size: 2.2em;
+	}
+
+	h3 {
+		font-size: 1.8em;
+	}
+
+	.entry-title {
+		font-size: 1.8em;
+	}
+
+	article.post h2 {
+		margin: 0px 0px 15px;
+	}
+
+	article.post h3 a {
+		color: black;
+	}
+
+/* Headlines */
+
+	.headline,
+	.widget-title {
+		border-left: 2px solid #FF7F50;
+		color: black;
+		font-size: 1.4em;
+		font-weight: normal;
+		line-height: 1.2em;
+		margin: 0px 0px 10px;
+		padding: 0px 0px 0px 20px;
+	}
+
+/* Content */
+	.content {
+		background: white;
+		padding: 20px;
+	}	
+
+/* Video Content */
+	.video-player {
+		margin: -20px 0px 20px -20px;
+	}
+
+/* Sidebar */
+
+	.sidebar {
+		padding: 0px 0px 0px 20px;
+	}
+
+	aside.widget {
+		margin: 0px 0px 20px;
+	}
+
+	.widget-title {
+		margin-left: -20px;
+	}
