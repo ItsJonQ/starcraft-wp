@@ -1,8 +1,8 @@
 <?php scwp_video(); ?>
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-	
-	<?php the_category('| ') ?>
+
+	<?php scwp_terms(); ?>
 
 	<?php scwp_title(); ?>
 

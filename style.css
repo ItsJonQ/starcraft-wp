@@ -25,15 +25,15 @@ p {
 	margin: 0px 0px 1.5em;
 }
 
+iframe {
+	max-width: 100%;
+}
 
 
 .wrapper {
 	margin: 0px auto;
 }
 
-article.post iframe {
-	max-width: 100%;
-}
 
 /* The Grid */
 
@@ -93,6 +93,7 @@ article.post iframe {
 
 	.entry-title {
 		font-size: 1.8em;
+		font-weight: normal;
 	}
 
 	article.post h2 {
@@ -119,12 +120,31 @@ article.post iframe {
 /* Content */
 	.content {
 		background: white;
-		padding: 20px;
+		padding: 0px 20px 20px;
 	}	
+
+	article {
+		padding: 20px 0px;
+	}
+
+	article.post {
+		border-bottom: 1px solid #eee;
+		margin: 0px 0px 20px;
+	}
 
 /* Video Content */
 	.video-player {
-		margin: -20px 0px 20px -20px;
+		margin: 0px 0px 0px -20px;
+		height: 360px;
+		width: 640px;
+	}
+
+	.video-player iframe,
+	.video-player embed, 
+	.video-player object {
+		display: block;
+		height: 100%;
+		width: 100%;
 	}
 
 /* Sidebar */
